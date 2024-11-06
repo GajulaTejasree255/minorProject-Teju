@@ -1,0 +1,29 @@
+ Title : DYNAMIC STUDENT MANAGEMENT DESIGN
+
+ Abstract :
+ The Dynamic Student Management Design project aims to create a web-based application that streamlines student data 
+ management, specifically focusing on
+ placement tracking for faculty and placement teams. The application features a
+ responsive interface that enables users to filter and search for student information by
+ criteria such as name, roll number, department, and placement status. Filtered results
+ are displayed in a structured table format for easy overview.
+ A significant feature is the ability to access detailed student information on a dedicated
+ page by clicking the student's roll number. This view includes data on academic
+ performance, department, and placement details.
+ The motivation for this project is to address inefficiencies in managing student
+ placement data, which is often scattered across various sources. Unlike the existing
+ ECAP website, which provides general student information, this project specifically
+ focuses on placement-related needs with advanced filtering, real-time data updates, and
+ a scalable solution to enhance decision-making and operational efficiency.
+ Ultimately, the project aims to reduce the manual effort in placement data
+ management and support the institution in achieving its placement objectives more
+ effectively.
+
+
+ Team Members:
+ G.Tejasree (21WH1A0572)
+ K.Hemalatha (21WH1A05A5)
+ Varsha (21WH1A0589)
+
+ Under the Guidance of
+ Dr.C.Nagaraju
