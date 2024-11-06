@@ -1,8 +1,8 @@
  Title : DYNAMIC STUDENT MANAGEMENT DESIGN
 
  Abstract :
- The Dynamic Student Management Design project aims to create a web-based
- application that streamlines student data management, specifically focusing on
+ The Dynamic Student Management Design project aims to create a web-based application that streamlines student data 
+ management, specifically focusing on
  placement tracking for faculty and placement teams. The application features a
  responsive interface that enables users to filter and search for student information by
  criteria such as name, roll number, department, and placement status. Filtered results
