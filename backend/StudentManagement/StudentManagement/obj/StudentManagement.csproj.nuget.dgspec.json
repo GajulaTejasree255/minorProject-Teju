@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentManagement.csproj": {}
+    "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\StudentManagement.csproj": {}
   },
   "projects": {
-    "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentManagement.csproj": {
+    "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\StudentManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentManagement.csproj",
+        "projectUniqueName": "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\StudentManagement.csproj",
         "projectName": "StudentManagement",
-        "projectPath": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentManagement.csproj",
+        "projectPath": "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\StudentManagement.csproj",
         "packagesPath": "C:\\Users\\Tejasree\\.nuget\\packages\\",
-        "outputPath": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\obj\\",
+        "outputPath": "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tejasree\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
