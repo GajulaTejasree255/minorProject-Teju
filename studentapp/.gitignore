@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+# Ignore Visual Studio files
+.vs/
+*.vsix
+*.vscode/
+.vscode/
+
+
 # testing
 /coverage
 
