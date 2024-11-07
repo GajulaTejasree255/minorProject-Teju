@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\miniProject\\backend\\StudentManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\services\\wheatherforcastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\services\\wheatherforcastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Program.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Program.cs",
+              "RelativeToolTip": "StudentManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T19:06:52.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WheatherForcastService.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\Services\\WheatherForcastService.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Services\\WheatherForcastService.cs",
+              "ToolTip": "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\Services\\WheatherForcastService.cs",
+              "RelativeToolTip": "StudentManagement\\Services\\WheatherForcastService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T19:01:47.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "StudentManagement\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:52:59.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
