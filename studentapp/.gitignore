@@ -6,7 +6,7 @@
 .pnp.js
 
 # Ignore Visual Studio files
-.vs/
+backend/StudentManagement/.vs/
 *.vsix
 *.vscode/
 .vscode/
