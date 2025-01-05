@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\miniProject\\backend\\StudentManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\migrations\\20250102172001_addcolumnstostudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\migrations\\20250102172001_addcolumnstostudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\studentdto\\studentfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\studentdto\\studentfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\migrations\\20241230164021_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\migrations\\20241230164021_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,35 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "StudentManagement\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T04:02:16.356Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250102172001_AddColumnsToStudents.cs",
-              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Migrations\\20250102172001_AddColumnsToStudents.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\Migrations\\20250102172001_AddColumnsToStudents.cs",
-              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Migrations\\20250102172001_AddColumnsToStudents.cs",
-              "RelativeToolTip": "StudentManagement\\Migrations\\20250102172001_AddColumnsToStudents.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T17:20:02.572Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -81,75 +42,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentFilterDTO.cs",
-              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDTO\\StudentFilterDTO.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\StudentDTO\\StudentFilterDTO.cs",
-              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDTO\\StudentFilterDTO.cs",
-              "RelativeToolTip": "StudentManagement\\StudentDTO\\StudentFilterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentManagement\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwC8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T03:06:00.741Z",
+              "WhenOpened": "2025-01-05T06:13:48.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20241230164021_initial.cs",
-              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Migrations\\20241230164021_initial.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\Migrations\\20241230164021_initial.cs",
-              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Migrations\\20241230164021_initial.cs",
-              "RelativeToolTip": "StudentManagement\\Migrations\\20241230164021_initial.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\StudentDTO.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDTO.cs",
+              "RelativeToolTip": "StudentManagement\\StudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T16:40:22.282Z"
+              "WhenOpened": "2025-01-05T06:13:07.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Data\\Student.cs",
               "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\Student.cs",
               "RelativeToolTip": "StudentManagement\\Data\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T03:52:54.058Z",
+              "WhenOpened": "2025-01-05T06:05:25.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentManagement\\appsettings.json",
-              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\appsettings.json",
-              "RelativeToolTip": "StudentManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-29T13:25:00.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\MyDbContext.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Data\\MyDbContext.cs",
               "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\MyDbContext.cs",
               "RelativeToolTip": "StudentManagement\\Data\\MyDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T13:20:24.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Program.cs",
               "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Program.cs",
               "RelativeToolTip": "StudentManagement\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T19:06:52.408Z"
             }

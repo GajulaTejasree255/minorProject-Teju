@@ -1,11 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace StudentManagement.Data
+namespace StudentManagement
 {
-    public class Student
-    { 
-        [Key]
-        public int RollNumber { get; set; }
+    public class StudentDTO
+    {
+        public int? RollNumber { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Department { get; set; }

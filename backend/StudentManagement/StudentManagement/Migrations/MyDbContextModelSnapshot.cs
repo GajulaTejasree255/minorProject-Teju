@@ -21,6 +21,10 @@ namespace StudentManagement.Migrations
 
             modelBuilder.Entity("StudentManagement.Data.Student", b =>
                 {
+                    b.Property<int>("RollNumber")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("DateOfBirth")
                         .HasColumnType("datetime(6)");
 
@@ -33,22 +37,18 @@ namespace StudentManagement.Migrations
                     b.Property<string>("FirstName")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("Id")
-                        .HasColumnType("int");
-
                     b.Property<string>("LastName")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("longtext");
+                    b.Property<int?>("PhoneNumber")
+                        .HasColumnType("int");
 
                     b.Property<string>("PlacementStatus")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("RollNumber")
-                        .HasColumnType("int");
+                    b.HasKey("RollNumber");
 
-                    b.ToTable("student");
+                    b.ToTable("Student");
                 });
 #pragma warning restore 612, 618
         }
