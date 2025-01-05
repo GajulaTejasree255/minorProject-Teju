@@ -5,6 +5,7 @@ import Box from '@mui/joy/Box';
 import Select from '@mui/joy/Select';
 import Option from '@mui/joy/Option';
 import IconButton from '@mui/joy/IconButton';
+import { Link } from 'react-router-dom';
 import FormControl from '@mui/joy/FormControl';
 import FormLabel from '@mui/joy/FormLabel';
 import Typography from '@mui/joy/Typography';
@@ -52,20 +53,28 @@ export default function StudentTable({ results }) {
         <Table stripe = "odd" variant="outlined" sx={{tableLayout: 'auto'}}>
           <thead>
             <tr>
-              <th  style={{ width: '40%' }}>Roll Number</th>
+              <th>Roll Number</th>
               <th>First Name</th>
               <th>Last Name</th>
               <th>Department</th>
+              <th>Email</th>
+              <th>PhoneNumber</th>
+              <th>DateOfBirth</th>
+              <th>PlacementStatus</th>
             </tr>
           </thead>
 
           <tbody>
                 {paginatedResults.map((result,index) => (
                 <tr key = {index}>
-                  <td>{result.rollNumber}</td>
+                  <td><Link to = {`/StudentDetail/${result.rollNumber}`}>{result.rollNumber}</Link></td>
                   <td>{result.firstName}</td>
                   <td>{result.lastName}</td>
                   <td>{result.department}</td>
+                  <td>{result.email}</td>
+                  <td>{result.phoneNumber}</td>
+                  <td>{result.dateOfBirth}</td>
+                  <td>{result.placementStatus}</td>
                 </tr>))}
           </tbody>
 

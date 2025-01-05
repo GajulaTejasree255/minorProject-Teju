@@ -6,7 +6,6 @@ import FormControl from '@mui/joy/FormControl';
 import FormLabel from '@mui/joy/FormLabel';
 import Input from '@mui/joy/Input';
 import Button from '@mui/joy/Button';
-import Link from '@mui/joy/Link';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -82,7 +81,7 @@ export default function Login() {
             )}
             <Button onClick={(handleLogin)} sx={{ mt: 1 /* margin top */ }}>Log in</Button>
             <Typography
-            endDecorator={<Link href="/sign-up">Sign up</Link>}
+            //endDecorator={<Link href="/sign-up">Sign up</Link>}
             sx={{ fontSize: 'sm', alignSelf: 'center' }}
             >
             Don&apos;t have an account?

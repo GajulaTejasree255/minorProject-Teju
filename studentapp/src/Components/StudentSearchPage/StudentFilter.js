@@ -16,7 +16,11 @@ export default function StudentFilter (){
         RollNumber : '',
         FirstName : '',
         LastName : '',
-        Department : ''
+        Department : '',
+        Email : '',
+        PhoneNumber : '',
+        DateOfBirth : '',
+        PlacementStatus : ''
     });
 
     const [results , setResults] = useState([]);
@@ -72,6 +76,7 @@ export default function StudentFilter (){
                 display: 'flex',
                 //flexDirection: 'column',
                 flexDirection: 'row',
+                flexWrap : 'wrap',
                 gap: 2,
                 borderRadius: 'sm',
                 boxShadow: 'md',
@@ -79,7 +84,7 @@ export default function StudentFilter (){
                 variant="outlined"
             >
 
-            <FormControl>
+            <FormControl sx={{ width: '100%', maxWidth: 300 }}>
                 <FormLabel>RollNumber</FormLabel>
                     <Input
                         // html input attribute
@@ -90,7 +95,7 @@ export default function StudentFilter (){
                     />
             </FormControl>
 
-            <FormControl>
+            <FormControl sx={{ width: '100%', maxWidth: 300 }}>
                 <FormLabel>FirstName</FormLabel>
                     <Input
                         // html input attribute
@@ -102,7 +107,7 @@ export default function StudentFilter (){
             </FormControl>
             
 
-            <FormControl>
+            <FormControl sx={{ width: '100%', maxWidth: 300 }}>
                 <FormLabel>LastName</FormLabel>
                     <Input
                         // html input attribute
@@ -113,7 +118,7 @@ export default function StudentFilter (){
                     />
             </FormControl>
 
-            <FormControl>
+            <FormControl sx={{ width: '100%', maxWidth: 300 }}>
                 <FormLabel>Department</FormLabel>
                     <Input
                         // html input attribute
@@ -124,7 +129,33 @@ export default function StudentFilter (){
                     />
             </FormControl>
 
-            <Button onClick = {handleSubmit}>Submit</Button>
+            <FormControl sx={{ width: '100%', maxWidth: 300 }}>
+                <FormLabel>Email</FormLabel>
+                    <Input
+                        // html input attribute
+                        name="Email"
+                        type="text"
+                        placeholder="Ex : 21wh1a0572@bvrithyderabad.edu.in"
+                        onChange={handleInputChange}
+                    />
+            </FormControl>
+
+            <FormControl sx={{ width: '100%', maxWidth: 300 }}>
+                <FormLabel>PlacementStatus</FormLabel>
+                    <Input
+                        // html input attribute
+                        name="PlacementStatus"
+                        type="text"
+                        placeholder="Placed/Unplaced"
+                        onChange={handleInputChange}
+                    />
+            </FormControl>
+
+            <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
+            <Button onClick={handleSubmit} sx={{ marginTop: 2 }}>
+            Submit
+            </Button>
+            </div>
             
             </Sheet>
             
