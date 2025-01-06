@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StudentManagement.Models;
 
 namespace StudentManagement.Data
 {
@@ -10,6 +11,6 @@ namespace StudentManagement.Data
         }
 
         public DbSet<Student> student { get; set; }
-
+        public DbSet<Placement> placement { get; set; }
     }
 }
