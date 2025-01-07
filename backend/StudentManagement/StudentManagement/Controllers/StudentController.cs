@@ -40,101 +40,97 @@ namespace StudentManagement.Controllers
 
         [HttpGet("GetStudents")]
         [Produces("application/json")]
-        public ActionResult<IEnumerable<StudentDTO>> GetStudents([FromQuery] StudentDTO student)
+        public ActionResult<IEnumerable<Student>> GetStudents([FromQuery] StudentDTO student)
         {
             try
             {
+                string baseSql = "SELECT * FROM student WHERE 1=1";  // Start with a valid base query
+                List<object> parameters = new List<object>();  // Store the filter parameters
+                int parameterIndex = 0; // Keep track of the parameter index for placeholders
 
-                //Console.WriteLine("Starting execution of GetStudents");
-                //Console.WriteLine($"RollNumber: {student?.RollNumber}, FirstName: {student?.FirstName}, LastName: {student?.LastName}, Department: {student?.Department}");
-
-                if (student.RollNumber != 0 &&
-                    string.IsNullOrEmpty(student.FirstName) &&
-                    string.IsNullOrEmpty(student.LastName) &&
-                    string.IsNullOrEmpty(student.Department) &&
-                    string.IsNullOrEmpty(student.Email) &&
-                    student.PhoneNumber != 0 &&
-                    !student.DateOfBirth.HasValue &&
-                    string.IsNullOrEmpty(student.PlacementStatus))
+                // Add filter for RollNumber if provided
+                if (student.RollNumber.HasValue)
                 {
-
-                    var allStudents = _context.student.ToList();
-
-                    if (!allStudents.Any())
-                    {
-                        _logger.LogWarning("No students found in the database.");
-                        return NotFound("No students found.");
-                    }
-
-                    return Ok(allStudents);
+                    baseSql += " AND RollNumber = {" + parameterIndex++ + "}";
+                    parameters.Add(student.RollNumber.Value);
                 }
 
-
-
-                var query = _context.student.AsQueryable();
-
-                if (student.RollNumber != 0)
-                {
-                    query = query.Where(s => s.RollNumber == student.RollNumber);
-                }
-
-
-
+                // Add filter for FirstName if provided
                 if (!string.IsNullOrEmpty(student.FirstName))
                 {
-                    var fn = student.FirstName.ToString().ToLower();
-                    query = query.Where(s => s.FirstName != null && s.FirstName.ToLower().Contains(fn));
+                    var firstName = "%" + student.FirstName.ToLower().Trim() + "%";
+                    baseSql += " AND LOWER(FirstName) LIKE {" + parameterIndex++ + "}";
+                    parameters.Add(firstName);
                 }
 
+                // Add filter for LastName if provided
                 if (!string.IsNullOrEmpty(student.LastName))
                 {
-                    var ln = student.LastName.ToString().ToLower();
-                    query = query.Where(s => s.LastName != null && s.LastName.ToLower().Contains(ln));
+                    var lastName = "%" + student.LastName.ToLower().Trim() + "%";
+                    baseSql += " AND LOWER(LastName) LIKE {" + parameterIndex++ + "}";
+                    parameters.Add(lastName);
                 }
 
+                // Add filter for Department if provided
                 if (!string.IsNullOrEmpty(student.Department))
                 {
-                    var dpt = student.Department.ToString().ToLower();
-                    query = query.Where(s => s.Department != null && s.Department.ToLower().Contains(dpt));
+                    var department = "%" + student.Department.ToLower().Trim() + "%";
+                    baseSql += " AND LOWER(Department) LIKE {" + parameterIndex++ + "}";
+                    parameters.Add(department);
                 }
 
+                // Add filter for Email if provided
                 if (!string.IsNullOrEmpty(student.Email))
                 {
-                    var mail = student.Email.ToString().ToLower();
-                    query = query.Where(s => s.Email != null && s.Email.ToLower().Contains(mail));
+                    var email = "%" + student.Email.ToLower().Trim() + "%";
+                    baseSql += " AND LOWER(Email) LIKE {" + parameterIndex++ + "}";
+                    parameters.Add(email);
                 }
 
+                // Add filter for PhoneNumber if provided
                 if (student.PhoneNumber.HasValue)
                 {
-                    query = query.Where(s => s.PhoneNumber == student.PhoneNumber.Value);
+                    baseSql += " AND PhoneNumber = {" + parameterIndex++ + "}";
+                    parameters.Add(student.PhoneNumber.Value);
                 }
 
+                // Add filter for DateOfBirth if provided
                 if (student.DateOfBirth.HasValue)
                 {
-                    query = query.Where(s => s.DateOfBirth == student.DateOfBirth.Value);
+                    baseSql += " AND DateOfBirth = {" + parameterIndex++ + "}";
+                    parameters.Add(student.DateOfBirth.Value);
                 }
 
+                // Add filter for PlacementStatus if provided
                 if (!string.IsNullOrEmpty(student.PlacementStatus))
                 {
-                    query = query.Where(s => string.Equals(s.PlacementStatus, student.PlacementStatus, StringComparison.OrdinalIgnoreCase));
+                    baseSql += " AND LOWER(PlacementStatus) = {" + parameterIndex++ + "}";
+                    parameters.Add(student.PlacementStatus.ToLower().Trim());
                 }
 
+                Console.WriteLine("Generated SQL: " + baseSql);
+                Console.WriteLine($"Parameters: {string.Join(", ", parameters)}");
 
-                var filteredStudents = query.ToList();
+                // Execute the query with the dynamic parameters
+                var result = _context.student.FromSqlRaw(baseSql, parameters.ToArray()).ToList();
 
-                if (!filteredStudents.Any())
+                if (!result.Any())
                 {
-                    _logger.LogWarning("No matching students found.");
-                    return NotFound("No matching students found with the provided details.");
+                    return NotFound("No matching students found.");
                 }
 
-                return Ok(filteredStudents);
+                return Ok(result);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error fetching student details.");
+                Console.WriteLine($"Error fetching student details: {ex.Message}");
                 return StatusCode(500, "Internal server error.");
             }
         }
+
+
+
+
+
     }
 }
