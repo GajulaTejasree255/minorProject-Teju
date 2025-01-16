@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\miniProject\\backend\\StudentManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\services\\wheatherforcastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\services\\wheatherforcastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\studentdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\studentdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\data\\placement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\data\\placement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\controllers\\placementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\placementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4532BC5-7FBD-4F98-939E-7C89ED01F525}|StudentManagement\\StudentManagement.csproj|d:\\miniproject\\backend\\studentmanagement\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,46 +42,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDetailDTO.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDetailDTO.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\StudentDetailDTO.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDetailDTO.cs",
+              "RelativeToolTip": "StudentManagement\\StudentDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:43:12.569Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentManagement\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswDsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T05:01:31.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlacementController.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\PlacementController.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Controllers\\PlacementController.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\PlacementController.cs",
+              "RelativeToolTip": "StudentManagement\\Controllers\\PlacementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:03:25.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Placement.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\Placement.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Data\\Placement.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\Placement.cs",
+              "RelativeToolTip": "StudentManagement\\Data\\Placement.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T09:34:37.955Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\StudentDTO.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\StudentDTO.cs",
+              "RelativeToolTip": "StudentManagement\\StudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T06:13:07.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Data\\Student.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\Student.cs",
+              "RelativeToolTip": "StudentManagement\\Data\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T06:05:25.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Data\\MyDbContext.cs",
+              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "StudentManagement\\Data\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:20:24.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Program.cs",
               "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Program.cs",
               "RelativeToolTip": "StudentManagement\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T19:06:52.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WheatherForcastService.cs",
-              "DocumentMoniker": "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\Services\\WheatherForcastService.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\Services\\WheatherForcastService.cs",
-              "ToolTip": "D:\\miniProject\\backend\\studentManagement\\StudentManagement\\Services\\WheatherForcastService.cs",
-              "RelativeToolTip": "StudentManagement\\Services\\WheatherForcastService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T19:01:47.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\miniProject\\backend\\StudentManagement\\StudentManagement\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "StudentManagement\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T18:52:59.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T19:06:52.408Z"
             }
           ]
         }
